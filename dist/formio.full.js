@@ -8567,6 +8567,7 @@ var Formio = function () {
 
     _classCallCheck(this, Formio);
 
+    console.log("THIS IS MY VERSION!");
     // Ensure we have an instance of Formio.
     if (!(this instanceof Formio)) {
       return new Formio(path);

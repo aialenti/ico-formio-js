@@ -15,6 +15,7 @@ var copy = require('shallow-copy');
  */
 export class Formio {
   constructor(path, options = {}) {
+	  console.log("THIS IS MY VERSION!")
     // Ensure we have an instance of Formio.
     if (!(this instanceof Formio)) { return new Formio(path); }
 
