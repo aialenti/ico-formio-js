@@ -1,3 +1,25 @@
+# Come effettuare le modifiche a Formio.js senza bestemmiare troppo
+
+1. Bisogna scaricare tutte le repository che leggono da Formio.js:
+	- ico-formio-js
+	- ico-ng-formio
+	- ico-ng-form-builder
+	- ico-formio
+	- ico-ng2-formio
+	- formio-app-formio
+	- hsd-formio => **Questa si trova sul git aziendale!!!**
+Tutte queste repository si trovano sul GitHub di ANIA, sarebbe una buona idea creare un GitHub per ICO (o per gli All-In) che le contenga
+
+2. Con un terminale dentro ognuna delle repository:
+	- npm install
+	- bower install
+	- gulp build
+Alcuni di questi comandi non funzioneranno, ma ce ne faremo una ragione e andremo al punto 3.
+3. A questo punto tutti i progetti sono stati installati, non ci resta che effettuare le modifiche desiderate a Formio.js e **lanciare il file deployer.bat**
+## NB I path nel deployer sono hadcodati, sarebbe opportuno rendere la struttura del file più generale
+
+---------------------------------
+
 # JavaScript powered forms and SDK for Form.io
 This library is a plain JavaScript form renderer and SDK for Form.io. This allows you to render the JSON schema forms produced by Form.io and render those within your application using plain JavaScript, as well as provides an interface SDK to communicate to the Form.io API's. The benefits of this library include.
 
