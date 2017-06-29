@@ -14,6 +14,7 @@ Tutte queste repository si trovano sul GitHub di ANIA, sarebbe una buona idea cr
 	- npm install
 	- bower install
 	- gulp build
+	
 Alcuni di questi comandi non funzioneranno, ma ce ne faremo una ragione e andremo al punto 3.
 3. A questo punto tutti i progetti sono stati installati, non ci resta che effettuare le modifiche desiderate a Formio.js e **lanciare il file deployer.bat**
 ## NB I path nel deployer sono hadcodati, sarebbe opportuno rendere la struttura del file più generale
